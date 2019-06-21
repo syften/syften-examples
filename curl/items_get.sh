@@ -5,8 +5,5 @@
 # MENTIONME_APITOKEN= # Your API Token from https://mentionme.app/setup
 MENTIONME_APITOKEN=${MENTIONME_APITOKEN:?You must provide your API Token}
 
-curl -X POST https://mentionme.app/api/0.0/items/get \
-	-H "Content-Type: application/json" \
-	-H "Authorization: Bearer $MENTIONME_APITOKEN" \
-	-d "{}"
+curl -X POST -H "Authorization: Bearer $MENTIONME_APITOKEN" -H "Content-length: 0" https://mentionme.app/api/0.0/items/get
 echo # curl doesn't produce a newline
