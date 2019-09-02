@@ -1,2 +1,2 @@
-# mentionme-examples
-Example scripts used to access the API of [MentionMe](https://mentionme.app/).
+# syften-examples
+Example scripts used to access the API of [Syften](https://syften.com/).

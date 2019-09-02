@@ -1,8 +1,8 @@
 # cURL
-A [MentionMe](https://mentionme.app/) API example using cURL.
+A [Syften](https://syften.com/) API example using cURL.
 
 ## Usage
-Copy your API Token from https://mentionme.app/setup and run the scripts as follows:
+Copy your API Token from https://syften.com/setup and run the scripts as follows:
 ```
-GEEKMAIL_APITOKEN="ABC" ./settings_get.sh
+SYFTEN_APITOKEN="ABC" ./settings_get.sh
 ```

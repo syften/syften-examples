@@ -2,8 +2,8 @@
 #
 # Communicate with the API using cURL.
 
-# MENTIONME_APITOKEN= # Your API Token from https://mentionme.app/setup
-MENTIONME_APITOKEN=${MENTIONME_APITOKEN:?You must provide your API Token}
+# SYFTEN_APITOKEN= # Your API Token from https://syften/setup
+SYFTEN_APITOKEN=${SYFTEN_APITOKEN:?You must provide your API Token}
 
-curl -X POST -H "Authorization: Bearer $MENTIONME_APITOKEN" -H "Content-length: 0" https://mentionme.app/api/0.0/items/get
+curl -X POST -H "Authorization: Bearer $SYFTEN_APITOKEN" -H "Content-length: 0" https://syften/api/0.0/items/get
 echo # curl doesn't produce a newline
